@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Category 1">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="switch_key1"
+            android:summary="Switch Summary"
+            android:title="Switch Preference" />
+        <EditTextPreference
+            android:key="edit_text_key"
+            android:title="EditText Preference"
+            android:summary="EditText Summary"
+            android:dialogMessage="Dialog Message"
+            android:defaultValue="write something..."/>
+        <CheckBoxPreference
+            android:key="check_box_key"
+            android:title="CheckBox Preference"
+            android:summary="CheckBox Summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
